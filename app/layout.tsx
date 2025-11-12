@@ -5,6 +5,7 @@ import { company } from "@/lib/company";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StructuredData from "@/components/StructuredData";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.magpass.com.br"),
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt-BR">
       <head>
         <StructuredData />
+        <GoogleAnalytics />
       </head>
       <body>
         <Header />

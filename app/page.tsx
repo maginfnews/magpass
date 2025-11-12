@@ -5,6 +5,7 @@ import Stats from "@/components/Stats";
 import CTA from "@/components/CTA";
 import ChristmasBanner from "@/components/ChristmasBanner";
 import ChristmasSnow from "@/components/ChristmasSnow";
+import Testimonials from "@/components/Testimonials";
 
 export const metadata: Metadata = {
   title: "Magpass - Suporte Técnico e Infraestrutura de TI em Guarulhos | Desde 2008",
@@ -156,6 +157,10 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <Testimonials />
+
+      {/* CTA Section */}
       <CTA />
     </>
   )
