@@ -1,0 +1,55 @@
+===========================================
+COMANDOS PARA DEPLOY NO GITHUB
+===========================================
+
+IMPORTANTE: Substitua "SEU-USUARIO" pelo seu username do GitHub!
+
+===========================================
+1. INICIALIZAR REPOSITÓRIO
+===========================================
+
+git init
+git add .
+git commit -m "Initial commit - Magpass landing page com tema de Natal"
+git branch -M main
+
+===========================================
+2. CRIAR REPOSITÓRIO NO GITHUB
+===========================================
+
+1. Acesse: https://github.com/new
+2. Nome: magpass-site
+3. Deixe PUBLIC
+4. NÃO inicialize com README
+5. Clique em "Create repository"
+
+===========================================
+3. CONECTAR E ENVIAR
+===========================================
+
+git remote add origin https://github.com/SEU-USUARIO/magpass-site.git
+git push -u origin main
+
+===========================================
+4. CONFIGURAR GITHUB PAGES
+===========================================
+
+1. Vá para: https://github.com/SEU-USUARIO/magpass-site/settings/pages
+2. Em "Source", selecione: GitHub Actions
+3. Aguarde o deploy (2-5 minutos)
+
+===========================================
+5. ACESSAR O SITE
+===========================================
+
+https://SEU-USUARIO.github.io/magpass-site/
+
+===========================================
+ATUALIZAÇÕES FUTURAS
+===========================================
+
+git add .
+git commit -m "Descrição da alteração"
+git push
+
+===========================================
