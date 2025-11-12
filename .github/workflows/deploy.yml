@@ -32,15 +32,20 @@ jobs:
         run: npm ci
       
       - name: Build with Next.js
-        run: npm run build
+        run: |
+          npm run build
+          touch out/.nojekyll
         env:
           NEXT_PUBLIC_COMPANY_NAME: "Magpass"
           NEXT_PUBLIC_SLOGAN: "Simplificando a Tecnologia desde 2008"
           NEXT_PUBLIC_PHONE_MAIN: "+55 11 4610-6363"
           NEXT_PUBLIC_PHONE_MOBILE: "+55 11 94743-0780"
           NEXT_PUBLIC_EMAIL: "comercial@magpass.com.br"
-          NEXT_PUBLIC_SITE_URL: "https://www.magpass.com.br"
+          NEXT_PUBLIC_SITE_URL: "https://maginfnews.github.io"
           NEXT_PUBLIC_ADDRESS: "Guarulhos - SP"
+      
+      - name: Add .nojekyll file
+        run: touch out/.nojekyll
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
