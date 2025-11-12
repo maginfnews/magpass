@@ -4,6 +4,7 @@ import "./globals.css";
 import { company } from "@/lib/company";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import StructuredData from "@/components/StructuredData";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.magpass.com.br"),
@@ -38,6 +39,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
+      <head>
+        <StructuredData />
+      </head>
       <body>
         <Header />
         <main>{children}</main>

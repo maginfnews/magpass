@@ -1,10 +1,54 @@
-
+import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
 import Stats from "@/components/Stats";
 import CTA from "@/components/CTA";
 import ChristmasBanner from "@/components/ChristmasBanner";
 import ChristmasSnow from "@/components/ChristmasSnow";
+
+export const metadata: Metadata = {
+  title: "Magpass - Suporte Técnico e Infraestrutura de TI em Guarulhos | Desde 2008",
+  description: "Suporte técnico especializado, administração de redes, backup em nuvem e consultoria em TI para empresas em Guarulhos e São Paulo. SLA garantido, 95% de resolução imediata. Contrate agora!",
+  keywords: [
+    "suporte técnico Guarulhos",
+    "infraestrutura TI São Paulo",
+    "backup em nuvem",
+    "consultoria TI",
+    "administração de redes",
+    "suporte técnico empresarial",
+    "licenciamento software",
+    "Microsoft",
+    "Dell",
+    "Adobe",
+    "Autodesk",
+    "SPOC",
+    "SLA",
+    "help desk"
+  ],
+  openGraph: {
+    title: "Magpass - Suporte Técnico e Infraestrutura de TI",
+    description: "Suporte técnico especializado para empresas. SLA garantido, 95% de resolução imediata. Guarulhos e São Paulo.",
+    type: "website",
+    locale: "pt_BR",
+    images: [
+      {
+        url: "/logo-magpass.png",
+        width: 1200,
+        height: 630,
+        alt: "Magpass - Infraestrutura de TI"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Magpass - Suporte Técnico e Infraestrutura de TI",
+    description: "Suporte técnico especializado para empresas. SLA garantido, 95% de resolução imediata.",
+    images: ["/logo-magpass.png"]
+  },
+  alternates: {
+    canonical: "https://www.magpass.com.br"
+  }
+};
 
 export default function HomePage() {
   const services = [

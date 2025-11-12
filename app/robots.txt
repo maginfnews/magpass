@@ -1,4 +1,23 @@
+# Magpass - Robots.txt
+# Otimizado para SEO
 
 User-agent: *
 Allow: /
-Sitemap: /sitemap.xml
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Crawl-delay para bots específicos
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Sitemaps
+Sitemap: https://www.magpass.com.br/sitemap.xml
+
+# Host preferencial
+Host: https://www.magpass.com.br
