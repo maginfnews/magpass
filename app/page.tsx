@@ -3,8 +3,7 @@ import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
 import Stats from "@/components/Stats";
 import CTA from "@/components/CTA";
-import ChristmasBanner from "@/components/ChristmasBanner";
-import ChristmasSnow from "@/components/ChristmasSnow";
+import OutubroRosaBanner from "@/components/OutubroRosaBanner";
 import Testimonials from "@/components/Testimonials";
 
 export const metadata: Metadata = {
@@ -117,9 +116,7 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Christmas Effects */}
-      <ChristmasSnow />
-      <ChristmasBanner />
+      <OutubroRosaBanner />
       
       <Hero />
       
@@ -131,7 +128,7 @@ export default function HomePage() {
         <div className="container-section">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-sm font-medium mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-pink-50 border border-pink-100 text-pink-700 text-sm font-medium mb-6">
               <span>Soluções Completas</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">

@@ -54,7 +54,7 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-4 py-2 rounded-xl text-slate-700 font-medium hover:text-blue-600 hover:bg-blue-50/50 transition-all duration-200"
+                className="px-4 py-2 rounded-xl text-slate-700 font-medium hover:text-pink-600 hover:bg-pink-50/50 transition-all duration-200"
               >
                 {link.label}
               </Link>
@@ -65,7 +65,7 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-3">
             <a 
               href={`tel:${company.phoneMain}`}
-              className="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors"
+              className="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-pink-600 transition-colors"
             >
               <Phone className="w-4 h-4" />
               <span className="text-sm font-medium">{company.phoneMain}</span>
@@ -99,7 +99,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="px-4 py-3 rounded-xl text-slate-700 font-medium hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                  className="px-4 py-3 rounded-xl text-slate-700 font-medium hover:bg-pink-50 hover:text-pink-600 transition-colors"
                   onClick={() => setOpen(false)}
                 >
                   {link.label}

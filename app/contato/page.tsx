@@ -113,10 +113,10 @@ export default function ContactPage() {
             </div>
 
             {/* Info Box */}
-            <div className="p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-cyan-50 border border-blue-100">
-              <h3 className="font-bold text-slate-900 mb-2">🎄 Promoção de Natal</h3>
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-pink-50 to-fuchsia-50 border border-pink-100">
+              <h3 className="font-bold text-slate-900 mb-2">Outubro Rosa</h3>
               <p className="text-slate-700 text-sm">
-                Contrate até 31/12 e ganhe <strong>30% OFF</strong> em planos anuais + consultoria gratuita!
+                Cuidar também é estar preparado. Conte com a Magpass para proteger a tecnologia que sustenta o seu negócio.
               </p>
             </div>
           </div>

@@ -60,12 +60,11 @@ https://SEU-USUARIO.github.io/magpass-site/
 - ✅ Microinterações em todos os elementos
 - ✅ Animações smooth e performáticas
 
-#### 🎄 Tema de Natal
-- ✅ Neve animada (50 flocos)
-- ✅ Banner promocional vermelho/verde
-- ✅ Decorações flutuantes (árvore, estrela, presente, sino)
-- ✅ Oferta especial: 30% OFF
-- ✅ Emojis festivos
+#### 💗 Tema Outubro Rosa
+- ✅ Paleta visual rosa, pink e fúcsia
+- ✅ Banner de conscientização e cuidado
+- ✅ Acentos visuais aplicados ao hero, navegação e métricas
+- ✅ Mensagens de prevenção, apoio e cuidado
 
 #### 📱 Componentes
 - ✅ Hero com vídeo de fundo (90% opacidade)
@@ -145,12 +144,9 @@ app-magpass/
 
 ```
 
-## 🎁 Promoção de Natal
+## 💗 Campanha Outubro Rosa
 
-**Válida até 31/12/2024:**
-- 🎄 Até 30% OFF em planos anuais
-- 🎁 Consultoria gratuita
-- ⭐ Setup sem custo adicional
+Comunicação visual de conscientização sobre cuidado, prevenção e apoio, integrada ao posicionamento institucional da Magpass.
 
 ## 📞 Suporte
 

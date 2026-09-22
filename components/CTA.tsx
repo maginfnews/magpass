@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight, Heart, MessageCircle } from "lucide-react";
 import { company } from "@/lib/company";
 
 export default function CTA() {
   return (
     <section className="section-padding relative overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-cyan-600 to-blue-700" />
+      <div className="absolute inset-0 bg-gradient-to-br from-pink-600 via-rose-500 to-fuchsia-600" />
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl animate-float" style={{animationDelay: '2s'}} />
@@ -15,20 +15,19 @@ export default function CTA() {
       <div className="container-section relative">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-red-500/40 via-green-500/40 to-red-500/40 backdrop-blur-sm border border-yellow-300/50 text-white text-sm font-medium mb-6 animate-pulse">
-            <span className="text-lg">🎄</span>
-            <span>Oferta Especial de Natal 2024</span>
-            <span className="text-lg">🎁</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 backdrop-blur-sm border border-white/30 text-white text-sm font-medium mb-6">
+            <Heart className="h-4 w-4 fill-current" aria-hidden="true" />
+            <span>Outubro Rosa</span>
           </div>
 
           {/* Headline */}
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Presente de Natal: <span className="text-yellow-300">30% OFF</span> em planos anuais
+            Tecnologia que cuida do seu negócio
           </h2>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-blue-50 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Contrate até 31/12 e ganhe consultoria gratuita + setup sem custo adicional! 🎅
+            Neste Outubro Rosa, reforçamos a importância do cuidado, da prevenção e do apoio. Conte com a Magpass para manter sua operação protegida e preparada.
           </p>
 
           {/* CTAs */}

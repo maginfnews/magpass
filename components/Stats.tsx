@@ -7,34 +7,34 @@ export default function Stats() {
       icon: <Clock className="w-8 h-8" />,
       value: "15+",
       label: "Anos de experiência",
-      color: "from-blue-600 to-cyan-600"
+      color: "from-pink-600 to-rose-500"
     },
     {
       icon: <Users className="w-8 h-8" />,
       value: "500+",
       label: "Empresas atendidas",
-      color: "from-cyan-600 to-blue-600"
+      color: "from-rose-500 to-fuchsia-600"
     },
     {
       icon: <TrendingUp className="w-8 h-8" />,
       value: "95%",
       label: "Taxa de resolução",
-      color: "from-blue-600 to-cyan-600"
+      color: "from-pink-600 to-rose-500"
     },
     {
       icon: <Award className="w-8 h-8" />,
       value: "24/7",
       label: "Suporte disponível",
-      color: "from-cyan-600 to-blue-600"
+      color: "from-rose-500 to-fuchsia-600"
     }
   ];
 
   return (
-    <section className="section-padding bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden">
+    <section className="section-padding bg-gradient-to-br from-slate-900 via-fuchsia-950 to-slate-900 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-cyan-500 rounded-full blur-3xl" />
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-pink-500 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-fuchsia-500 rounded-full blur-3xl" />
       </div>
 
       <div className="container-section relative">

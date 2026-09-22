@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle2, Sparkles } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50/30 to-white">
+    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-pink-50/40 to-white">
       {/* Video Background */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <video
@@ -18,21 +18,14 @@ export default function Hero() {
           <source src="/hero-video.mp4" type="video/mp4" />
         </video>
         {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/60 via-blue-900/50 to-slate-900/60" />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/65 via-fuchsia-950/50 to-slate-900/60" />
       </div>
 
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-10">
-        <div className="absolute -top-40 -right-40 w-96 h-96 bg-red-400/10 rounded-full blur-3xl animate-float" />
-        <div className="absolute top-1/2 -left-40 w-96 h-96 bg-green-400/10 rounded-full blur-3xl animate-float" style={{animationDelay: '2s'}} />
-        <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-yellow-300/10 rounded-full blur-3xl animate-float" style={{animationDelay: '4s'}} />
-        
-        {/* Christmas decorations */}
-        <div className="absolute top-10 right-10 text-6xl animate-twinkle opacity-60">🎄</div>
-        <div className="absolute top-1/4 left-10 text-5xl animate-twinkle opacity-50" style={{animationDelay: '1s'}}>⭐</div>
-        <div className="absolute bottom-20 right-1/4 text-4xl animate-twinkle opacity-60" style={{animationDelay: '0.5s'}}>🎁</div>
-        <div className="absolute top-1/3 right-1/3 text-3xl animate-twinkle opacity-40" style={{animationDelay: '1.5s'}}>❄️</div>
-        <div className="absolute bottom-1/3 left-1/4 text-4xl animate-twinkle opacity-50" style={{animationDelay: '2s'}}>🔔</div>
+        <div className="absolute -top-40 -right-40 w-96 h-96 bg-pink-400/20 rounded-full blur-3xl animate-float" />
+        <div className="absolute top-1/2 -left-40 w-96 h-96 bg-fuchsia-400/15 rounded-full blur-3xl animate-float" style={{animationDelay: '2s'}} />
+        <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-rose-300/20 rounded-full blur-3xl animate-float" style={{animationDelay: '4s'}} />
       </div>
 
       <div className="container-section relative z-20 pt-24 pb-32 lg:pt-32 lg:pb-40">
@@ -40,16 +33,16 @@ export default function Hero() {
           {/* Left Column - Content */}
           <div className="space-y-8">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-red-500/30 via-green-500/30 to-red-500/30 backdrop-blur-sm border border-yellow-300/50 text-white text-sm font-medium shadow-lg animate-pulse">
-              <span className="text-lg">🎄</span>
-              <span>Promoção de Natal • Até 30% OFF</span>
-              <span className="text-lg">🎁</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-pink-500/35 via-rose-500/30 to-fuchsia-500/35 backdrop-blur-sm border border-pink-200/50 text-white text-sm font-medium shadow-lg">
+              <span className="text-lg">♡</span>
+              <span>Outubro Rosa • Cuidado que conecta</span>
+              <span className="text-lg">♡</span>
             </div>
 
             {/* Headline */}
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight text-balance text-white drop-shadow-2xl">
               Infraestrutura de TI{" "}
-              <span className="text-cyan-400">que não falha</span>
+              <span className="text-pink-300">que não falha</span>
             </h1>
 
             {/* Subheadline */}
@@ -61,14 +54,14 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4">
               <Link 
                 href="/contato" 
-                className="group inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 hover:scale-105 transition-all duration-300"
+                className="group inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-pink-600 to-fuchsia-600 text-white font-semibold shadow-lg shadow-pink-500/30 hover:shadow-xl hover:shadow-pink-500/40 hover:scale-105 transition-all duration-300"
               >
                 Fale com especialista
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link 
                 href="/servicos" 
-                className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-white border-2 border-slate-200 text-slate-700 font-semibold hover:border-blue-300 hover:bg-blue-50/50 transition-all duration-300"
+                className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-white border-2 border-slate-200 text-slate-700 font-semibold hover:border-pink-300 hover:bg-pink-50/50 transition-all duration-300"
               >
                 Ver serviços
               </Link>
@@ -82,7 +75,7 @@ export default function Hero() {
                 "Suporte 24/7"
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2 text-white">
-                  <CheckCircle2 className="w-5 h-5 text-cyan-400" />
+                  <CheckCircle2 className="w-5 h-5 text-pink-300" />
                   <span className="font-medium">{item}</span>
                 </div>
               ))}

@@ -123,9 +123,9 @@ git pull
 ## 🎄 Features Implementadas
 
 - ✅ Design premium Awwwards-worthy
-- ✅ Tema de Natal completo
-- ✅ Neve animada
-- ✅ Banner promocional
+- ✅ Tema Outubro Rosa
+- ✅ Paleta rosa, pink e fúcsia
+- ✅ Banner de conscientização
 - ✅ Vídeo de fundo no Hero
 - ✅ Microinterações elegantes
 - ✅ Responsivo (mobile, tablet, desktop)
